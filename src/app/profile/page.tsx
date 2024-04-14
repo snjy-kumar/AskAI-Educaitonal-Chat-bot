@@ -45,7 +45,7 @@ export default function ProfilePage() {
       >
         GetUser Details
       </button>
-      <button className="bg-sky-500 text-white hover:text-sky-400 hover:bg-white">
+      <button className="bg-sky-500 text-white rounded-lg px-2 py-1 mt-2 hover:text-sky-400 hover:bg-white">
         <Link href="/chat">Go to Chat</Link>
       </button>
     </div>
