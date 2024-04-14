@@ -15,6 +15,11 @@ export default function Home() {
       {/* form element */}
       {RenderForm()}
       {RenderMessages()}
+      <div className="border-y mt-4 w-full text-center ">
+      <span className="text-lg font-bold underline text-gray-500 inline-grid mt-2">Note:</span>
+      <p className="text-sm">As per now you chat won't be saved but we are working on to provide that feature very soon.</p>
+      <p className="text-sm mb-2"> If you refresh page or go back it won't save your conversation. </p>
+      </div>
       {/* rendering messages */}
     </main>
   );
@@ -39,7 +44,7 @@ export default function Home() {
           value={input}
           disabled={isLoading}
           onChange={handleInputChange}
-          className="border-b border-dashed rounded-md outline-none w-full ml-10 px-4 py-2 text-black placeholder:text-black text-left focus:placeholder-transparent disabled:bg-transparent"
+          className="border-b border-dashed rounded-md outline-none w-full ml-10 px-4 py-2 text-black placeholder:text-sky-500 text-left focus:placeholder-transparent disabled:bg-transparent"
         />
         <button
           type="submit"

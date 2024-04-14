@@ -45,6 +45,9 @@ export default function ProfilePage() {
       >
         GetUser Details
       </button>
+      <button>
+        <Link href="/chat">Edit Profile</Link>
+      </button>
     </div>
       <button
         onClick={logout}
