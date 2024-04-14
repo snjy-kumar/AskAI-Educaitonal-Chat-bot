@@ -83,7 +83,7 @@ const Footer = (props: Props) => {
             <div className="space-y-2 flex flex-col justify-center w-full items-center">
               <h2 className="text-3xl font-bold ">About Me</h2>
               <p className=" text-gray-500 px-16 font-medium text-center md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I'm a passionate and creative individual with a love for
+                I&apos;m a passionate and creative individual with a love for
                 technology. I enjoy solving problems and creating beautiful and
                 intuitive user experiences. With a background in computer science
                 and years of experience in web development, I have the skills and
@@ -124,7 +124,7 @@ const Footer = (props: Props) => {
               Get in Touch
             </h2>
             <p className="mt-10 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Have a question or want to work together? Send me a message and I'll
+              Have a question or want to work together? Send me a message and I&apos;ll
               get back to you as soon as possible.
             </p>
           </div>
