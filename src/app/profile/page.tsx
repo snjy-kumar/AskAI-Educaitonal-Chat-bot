@@ -38,12 +38,12 @@ export default function ProfilePage() {
       <hr />
         <div className="flex flex-col mt-16  justify-center items-center py-2">
 
-        <h3>Verify that you are logged in with you real data</h3>
+        <h3>Verify that you are logged by</h3>
       <button
         onClick={getUserDetails}
         className="bg-green-800 mt-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
       >
-        GetUser Details
+        Click here
       </button>
       <button className="bg-sky-500 text-white rounded-lg px-2 py-1 mt-2 hover:text-sky-400 hover:bg-white">
         <Link href="/chat">Go to Chat</Link>

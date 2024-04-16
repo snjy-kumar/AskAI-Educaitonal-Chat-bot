@@ -17,8 +17,8 @@ export default function Home() {
       {RenderMessages()}
       <div className="border-y mt-4 w-full text-center ">
       <span className="text-lg font-bold underline text-gray-500 inline-grid mt-2">Note:</span>
-      <p className="text-sm">As per now you chat won&apos;t be saved but we are working on to provide that feature very soon.</p>
-      <p className="text-sm mb-2"> If you refresh page or go back it won&apos;t save your conversation. </p>
+      <p className="text-sm">As per now your chat won&apos;t be saved but we are working on to provide that feature very soon.</p>
+      <p className="text-sm mb-2"> If you refresh page, it will delete automatically.</p>
       </div>
       {/* rendering messages */}
     </main>

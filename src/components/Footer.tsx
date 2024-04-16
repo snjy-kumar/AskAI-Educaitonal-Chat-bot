@@ -81,17 +81,16 @@ const Footer = (props: Props) => {
         <div className="flex gap-6 justify-center">
           <div className="space-y-4">
             <div className="space-y-2 flex flex-col justify-center w-full items-center">
-              <h2 className="text-3xl font-bold ">About Me</h2>
+              <h2 className="text-3xl font-bold ">About Us</h2>
               <p className=" text-gray-500 px-16 font-medium text-center md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                I&apos;m a passionate and creative individual with a love for
-                technology. I enjoy solving problems and creating beautiful and
-                intuitive user experiences. With a background in computer science
-                and years of experience in web development, I have the skills and
-                expertise to bring ideas to life.
+                We are a team of developers who are passionate about creating
+                amazing software. We love to build things that are beautiful and
+                easy to use. Our goal is to make the web a better place for
+                everyone. We believe that great software can change the world.
               </p>
             </div>
             <div className="flex flex-col items-center mb-10 w-full">
-              <h3 className="text-2xl underline font-bold mt-4">Skills</h3>
+              <h3 className="text-2xl underline font-bold mt-4">Used Technologies</h3>
             <div className='flex flex-row mt-4'>
             <ul className="gap-2 text-lg text-gray-400 px-16 list-disc hover:cursor-pointer">
                 <li className='py-1 hover:text-white '>JavaScript (ES6+)</li>
@@ -178,7 +177,7 @@ const Footer = (props: Props) => {
         </div>
     </div>
     <footer className="w-full py-6 bg-transparent border-y text-gray-50 text-center">
-        © 2024 My Portfolio. All rights reserved.
+        © 2024 Ask AI Educational chat app. All rights reserved.
       </footer>
   </div>
   )
